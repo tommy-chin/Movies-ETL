@@ -1,1 +1,3 @@
 # Movies-ETL
+## Purpose
+A company known as Amazing Prime requested that movie data be sorted through to create an algorithm where upcoming low budget films can be predicted to be popular or not. They would accomplish the creation of the algorithm by hosting a hackathon. This hackaton would require a clean dataset to be created from the existing uncleaned datasets pulled from Wikipedia and MovieLens. Once this clean dataset was created, Amazing Prime requested that the dataset be updated on a daily basis. The code created would be refactored into a single function that reads in Wikipedia data, Kaggle metadata, and MovieLens rating data. This data would then be ran through the ETL process and added to a PostgreSQL database to be used by future users. 
